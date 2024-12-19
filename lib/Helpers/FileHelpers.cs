@@ -15,7 +15,7 @@ namespace SDDev.Net.ContentRepository.Helpers
         {
             {"image/gif", SupportedFileTypes.GIF },
             {"image/png", SupportedFileTypes.PNG },
-            {"image/jgp", SupportedFileTypes.JPG },
+            {"image/jpg", SupportedFileTypes.JPG },
             {"image/jpeg", SupportedFileTypes.JPG },
 
             {"application/vnd.openxmlformats-officedocument.wordprocessingml.document", SupportedFileTypes.DOCX },
@@ -38,8 +38,8 @@ namespace SDDev.Net.ContentRepository.Helpers
             { ".xlsx", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" },
             { ".csv", "text/csv" },
             { ".xml", "text/xml" },
-            { ".jpg", "image/jgp" },
-            { ".jpeg", "image/jgp" },
+            { ".jpg", "image/jpg" },
+            { ".jpeg", "image/jpg" },
             { ".png", "image/png" },
             { ".gif", "image/gif" },
             { ".pdf", "application/pdf"}
